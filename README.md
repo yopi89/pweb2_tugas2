@@ -4,6 +4,10 @@ Tugas ini dibuat sebagai penunjang nilai tugas 2 pada matakuliah Praktikum Pemro
 
 Proyek ini mendemonstrasikan penerapan prinsip OOP dalam PHP, khususnya dalam interaksi dengan database MySQL. Konsep utama yang diterapkan meliputi enkapsulasi, inheritance, dan polimorfisme.
 
+## Database
+Di tugas ini kita telah di sediakan database seperti berikut:
+![alt text](assets/database.png)
+
 ## TASK
 #### 1. Membuat view berbasis OOP PHP dengan menerima data dari mySQL database (hanya mengambil tabel reports, gpas dan gpa_details).
 #### 2. Menggunakan __construct sebagai link untuk terhubungan ke database.
@@ -61,7 +65,6 @@ class GpaDetail extends koneksi{
 ## Output Program
 ### 1. Tampilan tabel GPAS
 ![alt text](assets/gpas.png)
-
 ### 2. Tampilan tabel GPAS yang memiliki comulative_gpa sama dengan 3
 ![alt text](assets/gpas_khusus.png)
 ### 3. Tampilan tabel GPAS Detail
