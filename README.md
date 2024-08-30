@@ -63,15 +63,15 @@ class GpaDetail extends koneksi{
 ![alt text](assets/gpas.PNG)
 
 ### 2. Tampilan tabel GPAS yang memiliki comulative_gpa sama dengan 3
-![alt text](assets/gpas_khusus.PNG)
+![alt text](assets/gpas_khusus.png)
 ### 3. Tampilan tabel GPAS Detail
-![alt text](assets/gpa_detail.PNG)
+![alt text](assets/gpa_detail.png)
 ### 4. Tampilan tabel GPAS Detail yang memiliki semerter_gpa sama dengan 1
-![alt text](assets/gpa_detail_khusus.PNG)
+![alt text](assets/gpa_detail_khusus.png)
 ### 5. Tampilan tabel Report
-![alt text](assets/report.PNG)
+![alt text](assets/report.png)
 ### 6. Tampilan tabel Report dengan status bernilai Rejected
-![alt text](assets/report_khusus.PNG)
+![alt text](assets/report_khusus.png)
 
 
 
