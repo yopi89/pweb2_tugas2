@@ -5,8 +5,8 @@ include 'koneksi.php';
 // Mendefinisikan kelas Reports yang mewarisi kelas koneksi
 class Reports extends koneksi {
     public function ambilData() {
-        // Query SQL untuk mengambil semua data dari tabel reports dan hanya menampilkan data yang bernilai 1 pada kolom has_acc_academic_advisor
-        $sql = "SELECT * FROM reports WHERE has_acc_academic_advisor=1";
+        // Query SQL untuk mengambil semua data dari tabel reports dan hanya menampilkan data yang bernilai Rejected pada kolom status
+        $sql = "SELECT * FROM reports WHERE status = 'Rejected'";
         // Menjalankan query SQL dan menyimpan hasilnya dalam variabel $data
         $data = mysqli_query($this->conn, $sql);
         // Membuat array $hasil untuk menyimpan data yang diambil dari database
