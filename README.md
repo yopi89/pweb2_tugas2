@@ -2,7 +2,57 @@
 ## Deskripsi
 Tugas ini dibuat sebagai penunjang nilai tugas 2 pada matakuliah Praktikum Pemrograman WEB Semester 2
 
-Proyek ini mendemonstrasikan penerapan prinsip OOP dalam PHP, khususnya dalam interaksi dengan database MySQL. Konsep utama yang diterapkan meliputi enkapsulasi, inheritance, dan polimorfisme.
+Proyek ini mendemonstrasikan penerapan prinsip OOP dalam PHP, khususnya dalam interaksi dengan database MySQL. Konsep utama yang diterapkan meliputi enkapsulasi, inheritance, dan polimorfisme. 
+
+### Encapsulation
+```php
+class Animal{
+    protected $name;
+
+  public function getName(){
+        return $this->name;
+    }
+}
+```
+Sama seperti sebelumnya, Encapsulation adalah konsep pengamanan data di dalam objek dengan membatasi akses ke atribut dan metode menggunakan visibility sehingga data hanya dapat dimanipulasi melalui metode tertentu. 
+
+### Inheritance
+```php
+class Animal{
+    ...
+}
+
+class Cat extends Animal{
+    ...
+}
+
+class Dog extends Animal{
+    ...
+}
+```
+Pewarisan/Inheritance adalah mekanisme di mana sebuah kelas baru dapat mewarisi sifat-sifat (atribut dan metode) dari kelas yang sudah ada. Kelas yang diwarisi disebut superclass atau parent class, sedangkan kelas yang mewarisi disebut subclass atau child class. Ini memungkinkan pengembangan kode yang lebih efisien karena subclass dapat menggunakan kembali kode dari superclass. 
+
+### Polimorfisme 
+```php
+class Animal{
+    public function sound(){
+        return "sound of animal";
+    }
+}
+
+class Cat extends Animal{
+    public function sound(){
+        return "Meow";
+    }
+}
+
+class Dog extends Animal{
+    public function sound(){
+        return "Woof";
+    }
+}
+```
+Sedangkan Polimorfisme memungkinkan objek dari berbagai kelas untuk diperlakukan sebagai objek dari kelas yang sama melalui antarmuka yang sama. Ini bisa dilakukan melalui overloading (metode yang sama dengan parameter berbeda) atau overriding (mengubah perilaku metode dari superclass di subclass).
 
 ## Database
 Di tugas ini kita telah di sediakan database seperti berikut:
