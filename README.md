@@ -60,7 +60,7 @@ class GpaDetail extends koneksi{
 
 ## Output Program
 ### 1. Tampilan tabel GPAS
-![alt text](assets/gpas.PNG)
+![alt text](assets/gpas.png)
 
 ### 2. Tampilan tabel GPAS yang memiliki comulative_gpa sama dengan 3
 ![alt text](assets/gpas_khusus.png)
