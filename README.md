@@ -59,14 +59,14 @@ Di tugas ini kita telah di sediakan database seperti berikut:
 ![alt text](assets/database.png)
 
 ## TASK
-#### 1. Membuat view berbasis OOP PHP dengan menerima data dari mySQL database (hanya mengambil tabel reports, gpas dan gpa_details).
-#### 2. Menggunakan __construct sebagai link untuk terhubungan ke database.
+#### 1. Membuat View Berbasis OOP dengan Mengambil Data dari Database MySQL (hanya mengambil tabel reports, gpas dan gpa_details).
+#### 2. Menggunakan __construct sebagai Penghubung ke Database
 ```php
 public function __construct(){
     $this->conn = mysqli_connect($this->host, $this->user, $this->pass, $this->db);
 }
 ```
-#### 3. Menerapkan encapsulation.
+#### 3. Menerapkan Enkapsulasi Sesuai dengan Logika Studi Kasus
 ```php
 class koneksi {
     private $host = "localhost";  
@@ -76,7 +76,7 @@ class koneksi {
     protected $conn;
 }
 ```
-#### 4. Menggunakan kelas turunan menggunakan inheritance.
+#### 4. Membuat Kelas Turunan Menggunakan Konsep Inheritance
 ```php
 class Koneksi{
 }
@@ -87,7 +87,7 @@ class Gpas extends Koneksi{
 class GpasKhusus extends Gpas{
 }
 ```
-#### 5. Menggunakan polymorphiism
+#### 5. Menerapkan Polymorphism untuk Setidaknya 2 Peran Sesuai dengan Studi Kasus
 ```php
 class GpaDetail extends koneksi{
     public function ambilData(){
