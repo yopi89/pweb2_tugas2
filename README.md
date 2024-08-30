@@ -60,17 +60,18 @@ class GpaDetail extends koneksi{
 
 ## Output Program
 ### 1. Tampilan tabel GPAS
-
+![alt text](assets/gpas.PNG)
 
 ### 2. Tampilan tabel GPAS yang memiliki comulative_gpa sama dengan 3
-
+![alt text](assets/gpas_khusus.PNG)
 ### 3. Tampilan tabel GPAS Detail
-
+![alt text](assets/gpa_detail.PNG)
 ### 4. Tampilan tabel GPAS Detail yang memiliki semerter_gpa sama dengan 1
-
+![alt text](assets/gpa_detail_khusus.PNG)
 ### 5. Tampilan tabel Report
-
+![alt text](assets/report.PNG)
 ### 6. Tampilan tabel Report dengan status bernilai Rejected
+![alt text](assets/report_khusus.PNG)
 
 
 
